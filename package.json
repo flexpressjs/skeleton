@@ -1,0 +1,14 @@
+{
+    "name": "flexpress-skeleton",
+    "license": "MIT",
+    "description": "An incremental Node.js framework to combine the simplicity of Express.js with the features of a full-stack framework",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "./node_modules/.bin/flexpress",
+        "postuninstall": "./node_modules/.bin/flexpress"
+    },
+    "dependencies": {
+        "express": "^4.16.3",
+        "flexpress": "0.0.1-dev"
+    }
+}
