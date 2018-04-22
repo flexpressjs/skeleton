@@ -8,7 +8,9 @@
         "postuninstall": "./node_modules/.bin/flexpress"
     },
     "dependencies": {
-        "express": "^4.16.3",
-        "flexpress": "0.0.1-dev"
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "flexpress": "^0.0.4"
     }
 }
