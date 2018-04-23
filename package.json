@@ -4,6 +4,7 @@
     "description": "An incremental Node.js framework to combine the simplicity of Express.js with the features of a full-stack framework",
     "main": "index.js",
     "scripts": {
+        "start": "node ./index.js",
         "postinstall": "./node_modules/.bin/flexpress",
         "postuninstall": "./node_modules/.bin/flexpress"
     },
@@ -11,6 +12,6 @@
         "express": "^4.16.3"
     },
     "devDependencies": {
-        "flexpress": "^0.0.4"
+        "flexpress": "0.0.7"
     }
 }
